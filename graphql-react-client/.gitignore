@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# npm
+node_modules
+
+# generated json
+schema/schema.json
+schema/error.json
+
+interfaces.ts
+
+*.lock

@@ -11,6 +11,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <jetty.http.port>10099</jetty.http.port>
     </properties>
 
     <dependencies>
@@ -61,7 +62,7 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.6.v20170531</version>
+                <version>9.4.7.v20170914</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
